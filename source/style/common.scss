@@ -1,18 +1,18 @@
 @font-face {
-   font-family: "Poppins"; 
-   src: url("../fonts/Poppins-Black.ttf") local('Poppins'); 
+   font-family: "Montserrat"; 
+   src: url("../fonts/Montserrat.ttf") local('Montserrat'); 
    font-style: normal; 
    font-weight: normal; 
    } 
 @import url('https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css');
 
 *{
-   font-family: 'Poppins', 'Courier New', Courier, monospace;
+   font-family: 'Montserrat', 'Courier New', Courier, monospace;
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
 body {
-   background-color: #000;
+   background-color: #fff;
 }
 

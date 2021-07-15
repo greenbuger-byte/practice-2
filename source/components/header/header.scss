@@ -1,0 +1,34 @@
+.header{
+    height: 70px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+
+    .header__wrapper{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.nav{
+
+    &__item{
+        list-style: none;
+    }
+    &__link{
+        
+        font-size: 14px;
+        line-height: 17px;
+
+        color: rgba(31, 32, 65, 0.75);
+        
+        &:hover, &--active{
+            font-weight: bold;
+        }
+    }
+
+}

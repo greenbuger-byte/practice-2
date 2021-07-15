@@ -16,12 +16,21 @@ const PATHS = {
 const commons = merge({
     mode: 'development',
     entry: {
-        'index': PATHS.sourse + '/pages/index/index.js',
+        'index': PATHS.sourse + '/entry.js',
       //  'blog': PATHS.sourse + '/pages/blog/blog.js',
     },
     output: {
         path: PATHS.build,
         filename: 'dist/[name].js'
+    },
+    module: {
+        rules: [
+             {
+                test: /\.(svg|gif|jpg)$/,
+                use: 'file-loader?name=[name].[ext]'
+            }
+        ]
+
     },
     module: {
         rules: [

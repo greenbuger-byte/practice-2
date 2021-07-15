@@ -1,11 +1,7 @@
 .header 
     .header__wrapper 
         .logo
-            .logo__wrapper
-                .logo__text
-                    | M
-            .logo__subtext
-                | box
+            img(src=require("./Logo.svg").default, alt="logo")
         ul.nav
             li.nav__item
                 a(href="/").nav__item-link Home 
